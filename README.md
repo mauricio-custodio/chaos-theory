@@ -4,25 +4,14 @@ This project contains examples of
 
 ## Installation
 
+[How to use Pipenv with Jupyter and VSCode
+](https://towardsdatascience.com/how-to-use-pipenv-with-jupyter-and-vscode-ae0e970df486)
+
 ```bash
-# Check if python is installed
-python --version
-
-# Install pipenv
-pip install --user pipenv
-
-# Install packages in virtual environment
-pipenv install
-```
-
-Start virtual environment:
-
-```
-pipenv shell
+$ pipenv shell
 ```
 
 Open and run `.ipynb` files with `Jupyter` extension for VSCode or with `jupyter notebook` inside the virtual environment.
-
 
 ## Population and logistic map
 
